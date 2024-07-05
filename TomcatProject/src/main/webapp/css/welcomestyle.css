@@ -1,0 +1,17 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; background:url("https://us.123rf.com/450wm/biod/biod2105/biod210500033/169551763-dark-blue-background-dark-metal-texture-steel-background-navy-blue-carbon-fiber-texture-web-design.jpg");
+  }
+  
+  h1{
+    color:#fff;
+  }
