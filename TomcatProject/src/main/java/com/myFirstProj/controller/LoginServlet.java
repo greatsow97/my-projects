@@ -36,7 +36,6 @@ public class LoginServlet extends HttpServlet{
 	}else {
 		req.setAttribute("errorMessage", "Sorry, username or passwrod is incorrect");
 		rd= req.getRequestDispatcher("index.jsp");
-		// per mantenere nella stessa pagina nonostante l'utente non ci sia senza cambiare url
 		rd.include(req, resp);
 	}
 		
